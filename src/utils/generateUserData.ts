@@ -1,4 +1,7 @@
+
+// @ts-ignore
 import faker from 'faker';
+
 import { UserData } from '../App.tsx';
 export const generateUserData = ( errorRate: number, numRecords: number): UserData[] => {
   const userData: UserData[] = [];
